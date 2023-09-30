@@ -299,12 +299,10 @@ nav ul {
     display: flex;
     justify-content: space-between;
     padding: 2% 3%;
-    min-height: 100vh;
-    border: 2px solid black
+    min-height: 70vh;
 }
 
 .wu-div-left, .wu-div-right {
-    border: 2px solid black;
     width: 100%;
 }
 
@@ -328,7 +326,6 @@ nav ul {
 }
 
 .wu-div-parent {
-    border: 2px solid black;
     gap: 2rem;
 }
 
@@ -355,7 +352,54 @@ nav ul {
     font-size: 0.9em;
     font-weight: 300;
     letter-spacing: 1px;
-
 }
 
-/**** WHY US SECTION *****
+/**** WHY US SECTION *****/
+
+
+/**** CREATIVE INTEL SECTION ****/
+#creative-intel {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 3%;
+    min-height: 60vh;
+}
+
+.ci-div-left, .ci-div-right {
+    width: 100%;
+}
+
+.ci-div-left, .ci-div-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ci-div-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.ci-div-right h4 {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: rgb(174, 174, 174);
+}
+
+.ci-div-right h3 {
+    font-size: 1.9em;
+    letter-spacing: 2px;
+    line-height: 45px;
+    font-weight: 700;
+    font-family: var(--monts);
+}
+
+.ci-div-right p {
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/**** CREATIVE INTEL SECTION ****/
