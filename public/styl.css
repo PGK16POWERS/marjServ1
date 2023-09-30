@@ -89,6 +89,12 @@ nav ul {
     width: 100%
 }
 
+.hs-right-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hs-left-div {
     display: flex;
     justify-content: center;
@@ -147,6 +153,10 @@ nav ul {
     letter-spacing: 1px;
     font-weight: 300;
     color: rgb(129, 129, 129);
+}
+
+.hs-image {
+    width: 500px;
 }
 /**** HERO-SECTION ****/
 
@@ -281,6 +291,7 @@ nav ul {
 
 .ocp-img {
     position: relative;
+    width: 100px
 }
 
 .ocp-div-child h4 {
@@ -310,6 +321,12 @@ nav ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.wu-div-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wu-div-left {
@@ -352,6 +369,10 @@ nav ul {
     font-size: 0.9em;
     font-weight: 300;
     letter-spacing: 1px;
+}
+
+.small-icon {
+    width: 20px
 }
 
 /**** WHY US SECTION *****/
@@ -401,5 +422,9 @@ nav ul {
     font-size: 0.9em;
     font-weight: 300;
     letter-spacing: 1px;
+}
+
+.ci-img {
+    width: 90%
 }
 /**** CREATIVE INTEL SECTION ****/
