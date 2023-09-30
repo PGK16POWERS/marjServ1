@@ -308,11 +308,14 @@ nav ul {
     width: 100%;
 }
 
-.wu-div-left {
-    padding: 1rem;
+.wu-div-left, .wu-div-parent, .wdr-cont-div  {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.wu-div-left {
+    padding: 1rem;
     gap: 1.5rem;
 
 }
@@ -324,6 +327,35 @@ nav ul {
     font-family: var(--monts);
 }
 
+.wu-div-parent {
+    border: 2px solid black;
+    gap: 2rem;
+}
 
+.wu-div-reas {
+    font-family: var(--monts);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.wdr-cont-div {
+    gap: 0.7rem;
+    width: 70%
+}
+
+.wdr-cont-div h4 {
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.wdr-cont-div p {
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
 
 /**** WHY US SECTION *****
