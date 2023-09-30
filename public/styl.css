@@ -292,3 +292,38 @@ nav ul {
 }
 
 /**** CREATIVE PROCESS SECTION ****/
+
+/**** WHY US SECTION ****/
+#why-us {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 3%;
+    min-height: 100vh;
+    border: 2px solid black
+}
+
+.wu-div-left, .wu-div-right {
+    border: 2px solid black;
+    width: 100%;
+}
+
+.wu-div-left {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+}
+.wu-div-left h3 {
+    font-size: 1.9em;
+    letter-spacing: 2px;
+    line-height: 45px;
+    font-weight: 700;
+    font-family: var(--monts);
+}
+
+
+
+/**** WHY US SECTION *****
