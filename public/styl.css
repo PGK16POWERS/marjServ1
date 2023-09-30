@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a, li, button {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    background-color: white;
+    font-family: var(--robs);
+}
+
+:root {
+    --monts: 'Montserrat', sans-serif;
+    --nuns: 'Nunito', sans-serif;
+    --robs: 'Roboto', sans-serif;
+}
+
+
+
+/**** HEADER SECTION ****/
+header {
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.brand-logo {
+    width: 150px
+}
+
+.top-left, .top-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-link {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: black;
+}
+
+
+/**** HEADER SECTION ****/
